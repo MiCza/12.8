@@ -1,0 +1,16 @@
+//LOGO
+
+.logo {
+	background-color: white;
+	padding: 50px;
+	border-bottom: 1px solid grey;
+	border-top: 1px solid grey;
+
+	& img {
+		margin-top: 20px;
+	}
+
+	& img:first-of-type {
+		margin-left: 20%;
+	}
+}

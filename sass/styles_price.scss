@@ -1,0 +1,51 @@
+//PRICES
+
+.price {
+	background-color: #ededed;
+	margin: 40px 0 80px 0;
+	text-align: center;
+
+	h2, h4 {
+		text-transform: uppercase;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	h4 {
+		color: #aeaeae;
+		padding-bottom: 20px;
+	}
+}
+
+.price-profile {
+	background-color: white;
+	height: 340px;
+	margin-right: 2%;
+	padding: 20px 20px 30px 20px;
+	width: 260px;
+
+	h3 {
+		font-size: 26px;
+		font-weight: 500;
+	}
+
+	h5 {
+		font-size: 16px;
+	}
+
+	p {
+		line-height: .2em;
+	}
+
+	& h6, p {
+		color: gray;
+		font-size: 12px;
+		}
+}
+
+.price-profile:first-of-type {
+	margin-left: 7%;
+}
+
+.price-content {
+	margin: 45px auto;
+}

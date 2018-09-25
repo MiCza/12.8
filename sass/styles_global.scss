@@ -1,0 +1,124 @@
+$grid-columns: 12;
+
+$company-color: #b88b58;
+
+@for $i from 1 through $grid-columns {
+  .col-#{$i} {
+    width: 100% / 12 * $i;
+  }
+}
+
+@for $i from 1 through $grid-columns {
+	.col-offset-#{$i} {
+		margin-left: 100% / 12 * $i;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ededed;
+	font-family: 'Roboto';
+	margin: 0;
+	overflow-x: hidden;
+	padding: 0;
+}
+
+[class^="col-"] {
+		float: left;
+	}
+
+.container {
+	margin: 0 auto;
+	max-width: 1400px;
+	width: 100%;
+}
+
+.first-btn {
+	background-color: $company-color;
+	border-radius: 25px;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	height: 45px;
+	margin: 20px 0;
+	width: 194px;
+  text-transform: uppercase;
+  border-style: none;
+
+	&:hover {
+		background-color: white;
+		color: $company-color;
+		cursor: pointer;
+		border: 1px solid $company-color;
+		transition: .3s;
+	}
+
+	&:active {
+		background-color: $company-color;
+		color: white;
+		transition: .3s;
+	}
+
+	& a {
+		color: white;
+		text-decoration: none;
+	}
+}
+
+.pagination {
+	display: inline-block;
+}
+
+.pagination div {
+	border: 2px solid $company-color;
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 10px;
+	padding: 5px;
+	transition: background-color .3s;
+
+	&:hover {
+		background-color: $company-color;
+		transition: .3s;
+	}
+}
+
+.second-btn {
+	background-color: black;
+	border-radius: 30px;
+	border-style: none;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	height: 45px;
+	width: 129px;
+	margin-top: 15px;
+	text-transform: uppercase;
+
+	&:hover {
+    background-color: $company-color;
+		color: white;
+		transition: .3s;
+    cursor: pointer;
+	}
+
+	& a {
+		color: white;
+		text-decoration: none;
+	}
+}
+
+.row {
+	overflow: auto;
+
+	&::before, &::after {
+		clear: both;
+    	content: " ";
+    	display: table;
+	}
+}

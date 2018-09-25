@@ -1,0 +1,91 @@
+//HEADER
+
+#menu-toggle input {
+	display: none;
+}
+
+.nav-links {
+	list-style-type: none;
+	margin: 0;
+
+	a {
+		color: #fff;
+		font-size: 14px;
+		font-weight: bold;
+		height: 100px;
+		line-height: 100px;
+		margin-left: 30px;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		&:hover, &:active {
+			border-bottom: 5px solid $company-color;
+		}
+	}
+
+	li {
+		display: inline-flex;
+	}
+}
+
+.header {
+	align-items: center;
+	background-color: black;
+	display: flex;
+	height: 100px;
+	justify-content: space-around;
+	margin-bottom: 250px;
+}
+
+//HOME
+
+.fa-phone-volume {
+	background-color: $company-color;
+	border-radius: 50%;
+	color: white;
+	float: right;
+	font-size: 40px;
+	height: 65px;
+	line-height: 42px;
+	margin-top: 185px;
+	padding: 10px;
+	transform: rotate(-25deg);
+	width: 65px;
+
+	&:hover {
+		background-color: white;
+		border: 2px solid $company-color;
+		color: $company-color;
+	}
+}
+
+.home {
+	background: url("../images/home-background.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	height: 850px;
+	text-align: center;
+
+	h1 {
+		font-size: 74px;
+		line-height: .7em;
+		font-weight: bold;
+		text-transform: uppercase;
+
+		&.company-gold {
+			color: $company-color;
+		}
+	}
+
+	h3 {
+		font-size: 18px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.pagination {
+		margin-top: 160px;
+		margin-left: 4%;
+	}
+}

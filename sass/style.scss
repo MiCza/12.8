@@ -1,0 +1,22 @@
+// global styles:
+@import "styles_global";
+
+// styles for sections:
+@import "styles_section_global";
+@import "styles_home";
+@import "styles_about";
+@import "styles_service";
+@import "styles_project";
+@import "styles_team";
+@import "styles_client";
+@import "styles_logo";
+@import "styles_price";
+@import "styles_premium";
+@import "styles_fact";
+@import "styles_share";
+@import "styles_contact";
+@import "styles_footer";
+
+// media-query styles:
+@import "styles_media_1200";
+@import "styles_media_800";

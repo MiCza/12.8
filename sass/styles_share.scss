@@ -1,0 +1,77 @@
+//SHARE
+
+.share {
+	background-color: #fefefe;
+	color: #aeaeae;
+	margin-top: -30px;
+	text-align: center;
+
+
+	& a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	& i {
+		margin-left: 30px;
+	}
+
+	& i:not(.fa-share-alt) {
+		border-radius: 50%;
+		color: white;
+		cursor: pointer;
+		height: 33px;
+		margin-bottom: 20px;
+		margin: 15px;
+		padding: 5%;
+		width: 33px;
+	}
+
+	& i:not(.fa-share-alt):hover {
+		background-color: $company-color;
+		border: 5px solid $company-color;
+		transition: .3s;
+	}
+
+	.fab {
+		line-height: 17px;
+		font-size: 17px;
+	}
+
+	.fas {
+		line-height: 60px;
+		font-size: 17px;
+	}
+
+	p {
+		padding-left: 5px;
+		display: inline;
+		font-family: 'Roboto';
+		font-weight: lighter;
+	}
+
+	& .fa-twitter {
+		background-color: #34c5f0;
+		border: 5px solid #34c5f0;
+	}
+
+	& .fa-linkedin-in {
+		background-color: #127cb4;
+		border: 5px solid #127cb4;
+	}
+
+	& .fa-facebook-f {
+		background-color: #336297;
+		border: 5px solid #336297;
+	}
+
+	& .fa-google-plus-g {
+		background-color: #e74237;
+		border: 5px solid #e74237;
+	}
+
+	& .fa-pinterest-p {
+		background-color: #b71c29;
+		border: 5px solid #b71c29;
+	}
+}

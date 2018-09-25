@@ -1,0 +1,39 @@
+//ABOUT
+.about {
+	padding-bottom: 100px;
+	padding-top: 60px;
+
+
+	h2, h4 {
+		text-transform: uppercase;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	h4 {
+		color: #aeaeae;
+		padding-bottom: 30px;
+	}
+	.p-about {
+		float: left;
+		padding-top: 10px;
+		margin-left: 50px;
+	}
+	button {
+		float: left;
+		margin-left: 50px;
+		text-transform: uppercase;
+	}
+}
+
+.about-video {
+	margin-top: 20px;
+	float: right;
+	border-style: none;
+
+
+	video {
+		box-shadow: 10px 10px 10px grey;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+}

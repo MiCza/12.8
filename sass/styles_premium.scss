@@ -1,0 +1,54 @@
+//PREMIUM
+
+.premium {
+	background-color: white;
+	text-align: center;
+
+	h2, h4 {
+		text-transform: uppercase;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	h4 {
+		color: #aeaeae;
+		padding-bottom: 20px;
+	}
+	h2 {
+		padding-top: 30px;
+	}
+
+	& p {
+		color: gray;
+	}
+
+	& button {
+		margin-bottom: 50px;
+	}
+
+	& .pagination {
+		margin-top: 20px;
+	}
+}
+
+.premium-content {
+	border-bottom: 1px solid #aeaeae;
+}
+
+.premium-desc h3 {
+	margin-left: 15px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.premium-desc p {
+	margin-left: 15px;
+	text-align: left;
+}
+
+.premium-icon {
+	margin-top: 20px;
+}
+
+.premium .section-title {
+	text-align: center;
+}

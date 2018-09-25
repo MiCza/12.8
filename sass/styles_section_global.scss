@@ -1,0 +1,19 @@
+//SECTIONS GLOBAL
+
+.section-title h2 {
+	font-size: 30px;
+	line-height: .1em;
+}
+
+.section-title p {
+	color: #aeaeae;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.social-icons {
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
